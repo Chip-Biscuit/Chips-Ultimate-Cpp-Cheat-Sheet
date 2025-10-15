@@ -8,3 +8,12 @@ This repo doubles as a **GitHub Pages site**:
 ---
 
 ## Folder layout
+sections/
+basics.md
+memory.md
+oop.md
+stl.md
+concurrency.md
+patterns.md
+debugging.md
+reverse_eng.md
