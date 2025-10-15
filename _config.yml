@@ -13,3 +13,9 @@ just_the_docs:
   # If you later add a custom CSS file, uncomment:
   # custom_css:
   #   - assets/css/dark.css
+
+
+just_the_docs:
+  color_scheme: dark
+  custom_css:
+    - assets/css/dark.css
