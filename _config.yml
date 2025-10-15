@@ -8,12 +8,6 @@ remote_theme: just-the-docs/just-the-docs@v0.6.2
 plugins:
   - jekyll-remote-theme
 
-just_the_docs:
-  color_scheme: dark        # default dark
-  # If you later add a custom CSS file, uncomment:
-  # custom_css:
-  #   - assets/css/dark.css
-
 
 just_the_docs:
   color_scheme: dark
