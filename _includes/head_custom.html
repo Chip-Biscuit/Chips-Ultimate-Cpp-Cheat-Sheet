@@ -1,0 +1,11 @@
+<script>
+  // Force dark from the very first paint
+  (function () {
+    try {
+      // JTD remembers theme in localStorage — pin it to dark
+      localStorage.setItem('jtd-color-scheme', 'dark');
+    } catch (e) {}
+    // Tell JTD to use dark variables immediately
+    document.documentElement.setAttribute('data-color-scheme', 'dark');
+  })();
+</script>
