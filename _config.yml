@@ -2,13 +2,6 @@ title: "Chip’s Ultimate C++ Cheat Sheet"
 description: "A living personal reference for C++ syntax, memory, and reverse engineering."
 url: "https://chip-biscuit.github.io/Chips-Ultimate-Cpp-Cheat-Sheet"
 
-# Use Just the Docs as a remote theme (works on GitHub Pages)
-remote_theme: just-the-docs/just-the-docs@v0.6.2
-
-plugins:
-  - jekyll-remote-theme
-
-
 remote_theme: just-the-docs/just-the-docs@v0.6.2
 plugins:
   - jekyll-remote-theme
