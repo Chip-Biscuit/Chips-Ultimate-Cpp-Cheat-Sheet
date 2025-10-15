@@ -2,4 +2,8 @@ title: "Chip’s Ultimate C++ Cheat Sheet"
 description: "A living personal reference for C++ syntax, memory, and reverse engineering."
 theme: just-the-docs
 url: "https://chip-biscuit.github.io/Chips-Ultimate-Cpp-Cheat-Sheet"
-color_scheme: dark
+
+just_the_docs:
+  # force-load custom css
+  custom_css:
+    - assets/css/custom.css
