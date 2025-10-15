@@ -4,6 +4,6 @@ theme: just-the-docs
 url: "https://chip-biscuit.github.io/Chips-Ultimate-Cpp-Cheat-Sheet"
 
 just_the_docs:
-  # force-load custom css
+  # force-load custom csss
   custom_css:
     - assets/css/custom.css
