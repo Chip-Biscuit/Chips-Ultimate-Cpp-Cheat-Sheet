@@ -1,12 +1,15 @@
 title: "Chip’s Ultimate C++ Cheat Sheet"
 description: "A living personal reference for C++ syntax, memory, and reverse engineering."
-theme: "just-the-docs"
 url: "https://chip-biscuit.github.io/Chips-Ultimate-Cpp-Cheat-Sheet"
 
+# Use Just the Docs as a remote theme (works on GitHub Pages)
+remote_theme: just-the-docs/just-the-docs@v0.6.2
+
+plugins:
+  - jekyll-remote-theme
+
 just_the_docs:
-  custom_css:
-    - assets/css/dark.css
-    
-source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins
-gem "just-the-docs"
+  color_scheme: dark        # default dark
+  # If you later add a custom CSS file, uncomment:
+  # custom_css:
+  #   - assets/css/dark.css
