@@ -1,11 +1,16 @@
+<!-- Force Just-the-Docs dark mode before first paint -->
 <script>
-  // Force dark from the very first paint
   (function () {
     try {
-      // JTD remembers theme in localStorage — pin it to dark
+      // Cover both old/new keys JTD has used
       localStorage.setItem('jtd-color-scheme', 'dark');
+      localStorage.setItem('color-scheme', 'dark');
+      localStorage.setItem('theme', 'dark');
     } catch (e) {}
-    // Tell JTD to use dark variables immediately
     document.documentElement.setAttribute('data-color-scheme', 'dark');
   })();
 </script>
+<style>
+  /* Safety: paint dark background immediately to avoid flash of light */
+  html[data-color-scheme="dark"] body { background:#0d1117; color:#e6edf3; }
+</style>
